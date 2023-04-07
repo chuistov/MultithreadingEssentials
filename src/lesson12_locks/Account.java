@@ -10,9 +10,7 @@ public class Account {
     private final int id;
     private int amount;
 
-    /**
-     * добавляем лок
-      */
+    // добавляем лок
     private final Lock lock = new ReentrantLock();
 
     public Account(int amount) {

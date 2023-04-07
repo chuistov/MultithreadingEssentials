@@ -12,7 +12,7 @@ public class AccountThread extends Thread {
 
     @Override
     public void run() {
-        /**
+        /*
          * Нельзя брать несколько мониторов, только по одному,
          * поэтому несколько вложенных synchronized подряд.
          *
@@ -28,7 +28,7 @@ public class AccountThread extends Thread {
 //            }
 //        }
 
-        /**
+        /*
          * Но вдруг хотим сделать синхронизированные блоки
          * не для всего цикла, а внутри цикла.
          *
