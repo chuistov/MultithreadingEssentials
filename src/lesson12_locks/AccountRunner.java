@@ -1,4 +1,4 @@
-package lesson11_locks;
+package lesson12_locks;
 
 public class AccountRunner {
 

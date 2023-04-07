@@ -1,4 +1,4 @@
-package lesson11_locks;
+package lesson12_locks;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
